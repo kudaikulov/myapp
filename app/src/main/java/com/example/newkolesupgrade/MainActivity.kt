@@ -17,7 +17,7 @@ import retrofit2.converter.jackson.JacksonConverterFactory
 
 val apiRetrofit: Retrofit = Retrofit.Builder()
 //        .baseUrl("http://37.143.8.68:2020/")
-        .baseUrl("https://restcountries.eu/")
+        .baseUrl("http://api.football-data.org/")
         .addConverterFactory(JacksonConverterFactory.create())
         .build()
 
